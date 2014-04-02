@@ -1,5 +1,5 @@
 angular.module('app', []).
-controller('feedCtrl', ['$scope', '$http', function($scope, $http){
+controller('verseCtrl', ['$scope', '$http', function($scope, $http){
   var feedUrl = 'http://www.biblegateway.com/votd/get/?format=atom';
   var url = 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&callback=JSON_CALLBACK&q=' + encodeURIComponent(feedUrl);
   $http.jsonp(url).
