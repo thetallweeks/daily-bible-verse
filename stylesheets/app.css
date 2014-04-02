@@ -458,6 +458,7 @@ table {
   -moz-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  line-height: 1.65;
   padding: 1.5em;
   position: absolute;
   top: 0;
