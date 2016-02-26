@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="stylesheets/app.css">
 </head>
 <body class="app">
-<div class="verse" ng-controller="verseCtrl" ng-class="{ 'loaded': loaded }">
+<div class="verse" ng-controller="verseCtrl" dbv-slideshow wait-for="waitFor" ng-class="{ 'loaded': loaded }">
   <div class="verse__inner">
     <p class="verse__content">{{ feed.content }}</p>
     <h1 class="verse__title">{{ feed.title }}</h1>
